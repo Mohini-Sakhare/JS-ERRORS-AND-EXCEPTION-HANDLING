@@ -14,3 +14,11 @@ e.g
 console.log("Hello World" 
 output:-
 Missing closing parenthesis
+
+2) Reference Errors: 
+Occurs when we try to access a variable that hasn’t been declared.
+
+e.g.
+console.log(x); 
+output:-
+// ReferenceError: x is not defined
