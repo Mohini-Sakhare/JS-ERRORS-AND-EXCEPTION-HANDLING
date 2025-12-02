@@ -22,3 +22,14 @@ e.g.
 console.log(x); 
 output:-
 // ReferenceError: x is not defined
+
+3) Type Errors: 
+This happens when a value is not of the expected type 
+(e.g., trying to call a method on undefined).
+
+e.g.
+let num = 5;
+num.toUpperCase(); 
+
+output:-
+// TypeError: num.toUpperCase is not a function
