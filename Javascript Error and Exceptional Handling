@@ -9,3 +9,8 @@ There are different types of errors in JavaScript.
 1) Syntax Errors: 
 This happens when the code doesn't follow the correct syntax 
 (e.g., missing parentheses, brackets, or commas).
+
+e.g
+console.log("Hello World" 
+output:-
+Missing closing parenthesis
