@@ -33,3 +33,11 @@ num.toUpperCase();
 
 output:-
 // TypeError: num.toUpperCase is not a function
+
+4) Range Errors: 
+Occurs when a value is out of range, like passing an invalid number to a function.
+
+e.g.
+let arr = Array(-1); 
+output:
+// RangeError: Invalid array length
