@@ -41,3 +41,12 @@ e.g.
 let arr = Array(-1); 
 output:
 // RangeError: Invalid array length
+
+5) Custom Errors: 
+A custom error is an error that you create yourself to give more specific messages that make sense for your app. 
+It helps you explain exactly what went wrong in a way that's easy to understand and fix.
+
+throw new Error("Custom error occurred");
+
+output:
+Error: Custom error occurred
