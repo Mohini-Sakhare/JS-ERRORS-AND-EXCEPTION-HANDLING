@@ -50,3 +50,15 @@ throw new Error("Custom error occurred");
 
 output:
 Error: Custom error occurred
+
+## Exception Handling in JavaScript
+Exception handling in JavaScript refers to the process of dealing with errors (exceptions) that occur during the execution of a program. 
+JavaScript provides some mechanisms to catch, handle, and recover from error instead of letting the error stop the program. The most common approach is using try...catch blocks
+
+## Handling Errors Using try...catch
+The try...catch statement
+
+Try Block: You place code that may potentially throw an error here.
+Catch Block: This block executes if an error occurs in the try block.
+finally Block: The Code inside this block will always run, whether an error occurred or not.
+
