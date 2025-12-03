@@ -62,3 +62,25 @@ Try Block: You place code that may potentially throw an error here.
 Catch Block: This block executes if an error occurs in the try block.
 finally Block: The Code inside this block will always run, whether an error occurred or not.
 
+Syntax
+
+try {
+  // Code that may throw an error
+} catch (error) {
+  // Code to handle the error
+} finally {
+  // Optional: Code that runs regardless of success or error
+}
+
+e.g.
+try {
+    let res = 10 / 0;
+    if (!isFinite(res)) {
+        throw new Error("Cannot divide by zero");
+    }
+    console.log(res);
+} catch (error) {
+    console.error("Error occurred:", error.message);
+} finally {
+    console.log("Execution completed");
+}
