@@ -109,3 +109,13 @@ try {
 
 output:-
 Age must be 18 or above
+
+In this example
+
+The check() function checks if the age is less than 18. If it is, it throws an error with the message "Age must be 18 or above."
+The try block calls the check() function with 16 as the argument. 
+Since 16 is less than 18, an error is thrown.
+The catch block catches the error and displays the error message "Age must be 18 or above" using console.error().
+
+## Using Finally for Cleanup
+The final block is executed regardless of whether an error occurred or not.
