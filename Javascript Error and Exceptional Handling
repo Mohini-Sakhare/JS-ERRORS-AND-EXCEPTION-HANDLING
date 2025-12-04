@@ -84,3 +84,12 @@ try {
 } finally {
     console.log("Execution completed");
 }
+
+output:-
+Error occurred: Cannot divide by zero
+Execution completed
+
+## Throwing Custom Errors
+Sometimes, the standard JavaScript errors are not sufficient for our application needs. 
+In such cases, you can throw custom errors using the throw statement.
+
