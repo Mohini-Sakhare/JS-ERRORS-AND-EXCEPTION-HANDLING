@@ -119,3 +119,14 @@ The catch block catches the error and displays the error message "Age must be 18
 
 ## Using Finally for Cleanup
 The final block is executed regardless of whether an error occurred or not.
+
+e.g.
+try {
+    console.log("Trying...");
+    throw new Error("An error occurred");
+} catch (error) {
+    console.error(error.message);
+} finally {
+    console.log("Cleaning up...");
+}
+
