@@ -130,3 +130,7 @@ try {
     console.log("Cleaning up...");
 }
 
+output:
+Trying...
+An error occurred
+Cleaning up...
