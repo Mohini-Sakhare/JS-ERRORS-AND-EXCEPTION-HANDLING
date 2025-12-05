@@ -170,3 +170,13 @@ If the error occurs, then also the program keeps on running smoothly.
 It helps by recording error details, making it easier to find and fix problems.
 # Prevents Crashes: 
 It ensures the app doesn't completely stop working when something goes wrong.
+
+** Best Practices for Error Handling
+# Catch Specific Errors: 
+Handle specific error types if possible.
+# Use finally for Cleanup: 
+Ensure resources are released or closed.
+# Avoid Silent Failures: 
+Always log or handle errors appropriately.
+# Use Custom Errors: 
+Provide meaningful error messages.
