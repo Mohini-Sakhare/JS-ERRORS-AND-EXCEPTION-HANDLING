@@ -155,3 +155,18 @@ fetchData();
 
 output:-
 Error fetching data: fetch failed
+
+** In this example
+
+The fetchData() function uses async to allow asynchronous operations. 
+It tries to fetch data from the URL "https://api.example.com/data" using the fetch() function.
+If the fetch is successful, it converts the response to JSON format using await res.json() and then logs the data to the console.
+If an error occurs during the fetch operation (like a network issue), the catch block catches the error and logs an error message with the error details.
+
+** Benefits of Exception Handling
+# Graceful Degradation: 
+If the error occurs, then also the program keeps on running smoothly.
+# Error Logging: 
+It helps by recording error details, making it easier to find and fix problems.
+# Prevents Crashes: 
+It ensures the app doesn't completely stop working when something goes wrong.
