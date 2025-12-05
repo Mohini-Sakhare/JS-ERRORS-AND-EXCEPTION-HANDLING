@@ -134,3 +134,9 @@ output:
 Trying...
 An error occurred
 Cleaning up...
+
+** In this example
+
+The try block attempts to execute the code inside it, first printing "Trying..." to the console, then throwing a new error with the message "An error occurred."
+The catch block catches the thrown error and prints the error message "An error occurred" to the console using console.error().
+The finally block always runs, no matter what, and prints "Cleaning up..." to the console, ensuring any necessary cleanup happens.
