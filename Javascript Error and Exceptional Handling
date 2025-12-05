@@ -140,3 +140,15 @@ Cleaning up...
 The try block attempts to execute the code inside it, first printing "Trying..." to the console, then throwing a new error with the message "An error occurred."
 The catch block catches the thrown error and prints the error message "An error occurred" to the console using console.error().
 The finally block always runs, no matter what, and prints "Cleaning up..." to the console, ensuring any necessary cleanup happens.
+
+** Advanced: try...catch with async/await
+async function fetchData() {
+    try {
+        let res = await fetch("https://api.example.com/data");
+        let d = await res.json();
+        console.log(d);
+    } catch (error) {
+        console.error("Error fetching data:", error.message);
+    }
+}
+fetchData();
